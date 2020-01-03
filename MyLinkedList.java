@@ -60,7 +60,11 @@ public class MyLinkedList {
 			c = d/10;
 			if (x.next != null)
 			 l3.insert(k);
-			else l3.insert(d);
+			else 
+			{
+				l3.insert(k);
+				l3.insert(c);
+			}
 			x= x.next;
 			y = y.next;
 			
