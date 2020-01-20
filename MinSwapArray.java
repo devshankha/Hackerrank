@@ -34,9 +34,8 @@ public class MinSwapArray {
 				} else {
 					int c = nodeMap.get(k);
 					while (!isVisited[c]) {
-						isVisited[c]= true;
-						nextNode = nodeMap.get(c);
-						c = nextNode;
+						isVisited[c]= true;						
+						c = nodeMap.get(c);
 						++count_swap;
 						
 						
