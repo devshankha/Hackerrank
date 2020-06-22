@@ -1,4 +1,12 @@
+/*
+https://www.geeksforgeeks.org/trapping-rain-water/
+Given n non-negative integers representing an elevation map where the width of each bar is 1,
+compute how much water it is able to trap after raining.
 
+THis is my own solution, not very affective, but appears to work in cases
+
+
+*/
 public class TappingRainWater {
 
 	static int calCulateWater(int arr[]) {
