@@ -1,4 +1,11 @@
+/**
+This is the famous countandsay sequence problem, 
+Find the n’th term in Look-and-say (Or Count and Say) Sequence. The look-and-say sequence is the sequence of below integers:
+1, 11, 21, 1211, 111221, 312211, 13112221, 1113213211, …
 
+solution similar to - https://www.youtube.com/watch?v=-wB1xj-kOe0
+
+*/
 public class CountandSay {
 	
 	static String countNsay(int n) {
