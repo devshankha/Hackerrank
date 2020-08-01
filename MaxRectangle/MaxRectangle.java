@@ -23,7 +23,8 @@ public class MaxRectangle {
 		int i = 0;
 		while (i < n) {
 			// If this bar is higher than the bar on top stack, push it to stack
-			if (s.empty() || hist[s.peek()] <= hist[i])
+			//hist[i] >= hist[s.peek()]
+			if (s.empty() || hist[i] >= hist[s.peek()])
 				s.push(i++);
 
 			// If this bar is lower than top of stack, then calculate area of rectangle
